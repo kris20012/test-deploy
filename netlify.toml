@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build --prefix WHCFC_Frontend"
+  command = "npm run build"
   publish = "WHCFC_Frontend/dist/whcfc-frontend"
 
 [build.environment]
@@ -9,3 +9,4 @@
 from = "/*"
 to = "/index.html"
 status = 200
+
